@@ -1,4 +1,4 @@
-type verifyUserFn = (user:User, sentUser:User ) => boolean;
+type verifyUserFn = (user: User, sentUser: User) => boolean;
 
 type User = {
   id: number;
@@ -13,27 +13,27 @@ type Admin = {
 }
 
 
-const verifyUser: verifyUserFn = (user:User, sentUser:User) => {
+const verifyUser: verifyUserFn = (user: User, sentUser: User) => {
   return user.id === sentUser.id && user.email === sentUser.email;
 }
 
-const user:User = {
+const user: User = {
   id: 1,
   name: "Fabricio",
   email: "111",
 }
 
-const admin:Admin = {
+const admin: Admin = {
   id: 1,
   name: "Leprechaun",
   email: "222"
 }
 
-const userSent ={
+const userSent = {
   id: 1,
   name: "Fabricio",
   email: "111",
   permissions: ["read", "write"]
 }
 
-console.log(verifyUser(admin,userSent))
+console.log(verifyUser(admin, userSent))
