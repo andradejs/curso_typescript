@@ -3,7 +3,7 @@
   "compilerOptions": {
     // File Layout
     // "rootDir": "./src",
-    "outDir": "./dist",
+    "outDir": "./frontend/assets/js",
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
@@ -43,5 +43,5 @@
     "moduleDetection": "force",
     "skipLibCheck": true,
   },
-  "include": ["./src"]
+  "include": ["./src/aula18_webpack/**/*"]
 }
