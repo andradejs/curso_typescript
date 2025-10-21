@@ -43,5 +43,5 @@
     "moduleDetection": "force",
     "skipLibCheck": true,
   },
-  "include": ["./src/aula18_webpack/**/*"]
+  "include": ["./src/aula19_exercicio/**/*"]
 }

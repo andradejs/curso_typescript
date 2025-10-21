@@ -1,5 +1,6 @@
 {
-    "code-runner.executorMap": { 
+    "code-runner.executorMap": {
         "typescript": "npx ts-node --files",
     },
+    "livePreview.defaultPreviewPath": "/frontend/index.html",
 }

@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   mode:   'development',
-  entry: './src/aula18_webpack/index.ts',
+  entry: './src/aula19_exercicio/index.ts',
   module: {
     rules: [
       {
@@ -25,3 +25,4 @@ module.exports = {
   },
   devtool: 'source-map',
 };
+ 
