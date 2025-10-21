@@ -1,12 +1,12 @@
 let x = 10 as const;
 
 const pessoa = {
-    nome: "Luiz" as const,
-    sobrenome: "Miranda"
+  nome: "Luiz" as const,
+  sobrenome: "Miranda",
 };
 
 function escolhaCor(cor: "Vermelho" | "Amarelo" | "Azul") {
-    return cor;
+  return cor;
 }
 
 escolhaCor("Azul");

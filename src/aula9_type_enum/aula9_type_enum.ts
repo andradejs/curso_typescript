@@ -1,7 +1,7 @@
 enum Cores {
   VERMELHO,
   AZUL,
-  AMARELO
+  AMARELO,
 }
 
 // enum Cores{

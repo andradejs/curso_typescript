@@ -1,8 +1,8 @@
-let variavel:any; //variavel do tipo undefined
+let variavel: any; //variavel do tipo undefined
 
 function squareOf(x: any) {
-  if (typeof x === 'number') return x * x;
-  return null
+  if (typeof x === "number") return x * x;
+  return null;
 }
 
 const squareOfTwoNumbers = squareOf(2);

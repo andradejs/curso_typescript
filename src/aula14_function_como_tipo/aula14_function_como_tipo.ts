@@ -1,17 +1,16 @@
 type MapStringsCallback = (item: string) => string;
 
-function mapStrings(array: string[], callbackfn:MapStringsCallback): string[]{
+function mapStrings(array: string[], callbackfn: MapStringsCallback): string[] {
+  const newArray: string[] = [];
 
-	const newArray: string[] = [];
-
-	for (let i = 0; i < array.length; i++){
+  for (let i = 0; i < array.length; i++) {
     const item = array[i];
-    if (item !== undefined){
+    if (item !== undefined) {
       newArray.push(callbackfn(item));
     }
-	}
+  }
 
-	return newArray;
+  return newArray;
 }
 
 const abc = ["fabricio", "stefany", "joao"];

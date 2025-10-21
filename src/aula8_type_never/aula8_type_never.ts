@@ -3,4 +3,3 @@ function criaErro(): never {
 }
 
 criaErro();
-

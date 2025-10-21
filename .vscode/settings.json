@@ -1,6 +1,10 @@
 {
-    "code-runner.executorMap": {
-        "typescript": "npx ts-node --files",
-    },
-    "livePreview.defaultPreviewPath": "/frontend/index.html",
+  "code-runner.executorMap": {
+    "typescript": "npx ts-node --files"
+  },
+  "livePreview.defaultPreviewPath": "/frontend/index.html",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
