@@ -43,6 +43,6 @@ const custumer = new Custumer("Leone", "Rodriges", "000.000.000-00");
 const employee = new Employee("Leone", "Rodriges", "000.000.000-00");
 const person = new Person("Leone", "Rodriges", "000.000.000-00");
 
-custumer.getName();
-employee.getName();
-person.getName();
+console.log(custumer.getName());
+console.log(employee.getName());
+console.log(person.getName());
