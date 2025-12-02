@@ -60,6 +60,7 @@ function shouldSendForm(form:HTMLFormElement): boolean{
 
 form.addEventListener("submit", function (e: Event): void {
   e.preventDefault();
+  console.log("ola");
   hideErroMessage(this);
   checkEmptyFields(userName,userName,password,password2);
   checkEmail(emailUser);
